@@ -1,6 +1,6 @@
 # Maintainer: Kimiblock Moe
 # Contributor: wszqkzqk
-
+# https://aur.archlinux.org/wechat-bin.git
 pkgname=wechat-bin
 pkgver=4.1.13.3
 pkgrel=1
