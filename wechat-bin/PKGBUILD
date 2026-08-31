@@ -1,6 +1,5 @@
-# Maintainer: Kimiblock Moe
-# Contributor: wszqkzqk
-# https://aur.archlinux.org/wechat-bin.git
+# Beta Version By XiaoU
+# forked from https://aur.archlinux.org/wechat-bin.git
 pkgname=wechat-bin
 pkgver=4.1.13.3
 pkgrel=1
@@ -74,11 +73,11 @@ source_x86_64=(
 )
 
 source_aarch64=(
-	wechat-arm-${pkgver}.deb::"https://dldir1v6.qq.com/weixin/Universal/Linux/WeChatLinux_arm64.deb"
+	wechat-arm-${pkgver}.deb::"https://github.com/XiaoUGame/WeChatLinuxArchive/releases/download/Ver4/wechat_4.1.13.3_arm64.deb"
 )
 
 source_loong64=(
-	wechat-loong64-${pkgver}.deb::"https://dldir1v6.qq.com/weixin/Universal/Linux/WeChatLinux_LoongArch.deb"
+	wechat-loong64-${pkgver}.deb::"https://github.com/XiaoUGame/WeChatLinuxArchive/releases/download/Ver4/wechat_4.1.13.3_loongarch64.deb"
 )
 
 
