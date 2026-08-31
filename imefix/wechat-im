@@ -1,0 +1,13 @@
+#!/bin/bash
+case "$XDG_CURRENT_DESKTOP" in
+    KDE)
+        exec env -u QT_IM_MODULE -u GTK_IM_MODULE DESKTOPINTEGRATION=false \
+            /opt/wechat/wechat %U "$@"
+        ;;
+    *)
+        exec env QT_QPA_PLATFORM=xcb \
+            QT_IM_MODULE=fcitx GTK_IM_MODULE=fcitx XMODIFIERS=@im=fcitx \
+            ELECTRON_OZONE_PLATFORM_HINT=x11 DESKTOPINTEGRATION=false \
+            /opt/wechat/wechat %U"$@"
+        ;;
+esac

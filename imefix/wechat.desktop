@@ -1,0 +1,20 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Utility;
+Comment[zh_CN]=微信桌面版
+Comment=微信桌面版
+Exec='/opt/wechat/wechat-im' %U
+GenericName[zh_CN]=
+GenericName=
+Icon=wechat
+MimeType=
+Name[zh_CN]=微信
+Name=微信
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-AppImage-Version=4.1.13
+X-KDE-SubstituteUID=false
+X-KDE-Username=
